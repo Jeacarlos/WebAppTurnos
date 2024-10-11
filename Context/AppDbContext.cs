@@ -11,7 +11,6 @@ namespace WebAppTurnos.Context
         }
         public DbSet<Turno> Turnos { get; set; }
         public DbSet<Documento> Documentos { get; set; }
-
         public DbSet<Empleado> Empleados { get; set; }
 
 
